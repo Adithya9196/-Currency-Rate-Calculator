@@ -30,7 +30,7 @@ A Flutter-based currency converter application with Firebase authentication, liv
 
       flutter run
 
-4. Architecture Diagram
+# Architecture Diagram
 
 +-------------------+
 |   Presentation    |
