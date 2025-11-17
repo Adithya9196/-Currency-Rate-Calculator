@@ -62,7 +62,7 @@ A Flutter-based currency converter application with Firebase authentication, liv
 ├── main.dart
 ├── firebase_options.dart
 ├── splash_screen/
-│   ├── splash_screen.dart
+│   └── splash_screen.dart
 ├── theme/
 │   └── themedata.dart
 ├── trend_chart/
@@ -70,6 +70,8 @@ A Flutter-based currency converter application with Firebase authentication, liv
 │   ├── trend_event.dart
 │   ├── trend_state.dart
 │   └── trend_ui.dart
+├── home_page/
+│   └── home_page.dart
 ├── firebase_auth/
 │   ├── auth_bloc/
 │   ├── auth_repository/
@@ -80,5 +82,4 @@ A Flutter-based currency converter application with Firebase authentication, liv
     ├── model_page/
     ├── data/
     └── ui/
-        └── home_page/
-            └── home_page.dart
+     
