@@ -56,7 +56,7 @@ A Flutter-based currency converter application with Firebase authentication, liv
 +-------------------+
 
 
-5. Folder layout
+# Folder layout
 
  lib/
 ├── main.dart
