@@ -1,16 +1,31 @@
 # currency_rate_calculator
 
-A new Flutter project.
+A Flutter-based currency converter application with Firebase authentication, live API integration.
 
-## Getting Started
+## Setup Steps
 
-This project is a starting point for a Flutter application.
+1. Flutter & Dart Versions
 
-A few resources to get you started if this is your first Flutter project:
+     Flutter: 3.27.1
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+     Dart: 3.6.0
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+     flutter --version
+
+2. Firebase Configuration
+
+     Create a Firebase project at Firebase Console.
+   
+     Enable Authentication → Email/Password.
+
+     Download the google-services.json
+
+     Add Firebase dependencies in pubspec.yaml:
+           firebase_core: ^2.25.0
+           firebase_auth: ^4.6.0
+
+     Initialize Firebase in main.dart
+
+3. How to Run
+
+      flutter run
