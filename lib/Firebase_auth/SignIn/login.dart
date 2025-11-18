@@ -52,7 +52,7 @@ class _LoginScreenState extends State<LoginScreen>
           if (state is AuthAuthenticated) {
             Navigator.pushReplacement(
               context,
-              MaterialPageRoute(builder: (context) => HomeScreen()),
+              MaterialPageRoute(builder: (_) => HomeScreen()),
             );
           }
         },
@@ -169,7 +169,7 @@ class _LoginScreenState extends State<LoginScreen>
                       onTap: () {
                         Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (_) => RegisterScreen()),
+                          MaterialPageRoute(builder: (context) => RegisterScreen()),
                         );
                       },
                       child: Text(
