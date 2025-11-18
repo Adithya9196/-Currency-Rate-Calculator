@@ -1,6 +1,14 @@
+
+
+
+https://github.com/user-attachments/assets/2d5240e8-1b77-46a6-b8ab-1a2dbda4dd5d
+
+
+
 # currency_rate_calculator
 
 A Flutter-based currency converter application with Firebase authentication, live API integration.
+
 
 ## Setup Steps
 
